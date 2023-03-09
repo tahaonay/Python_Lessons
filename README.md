@@ -1,2 +1,3 @@
 # Python_Dersleri
 Python derleri, hatırlatmalar, ders uygulamalar
+09.03.2023 - ...
