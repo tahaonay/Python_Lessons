@@ -24,4 +24,19 @@ fun1(3)
 """
 
 
+""" decorator 
+def my_func(func1):
+    def func2(name):
+        print("fonksiyondan önce calisacak")
+        func1(name)
+        print("fonksiyondan sonra calisacak")
+    return func2
+
+@my_func
+def merhaba(name):
+    print("Merhaba "+name)
+
+merhaba("taha")
+"""
+
 
