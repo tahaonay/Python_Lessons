@@ -1,0 +1,52 @@
+import numpy as np
+
+""" ----Basic----
+# python list
+py_list = [1,2,3,4,5,6,7,8,9]
+
+# numpy array
+np_array = np.array([1,2,3,4,5,6,7,8,9])
+
+
+py_multi =[[1,2,3],[4,5,6],[7,8,9]]
+np_multi = np_array.reshape(3,3)
+
+print(py_multi)
+print(np_multi)
+
+print("Dizi  boyutu:",np_array.ndim)
+print("Multi boyutu:",np_multi.ndim)
+
+print(np_array.shape)
+print(np_multi.shape)
+
+"""
+
+# dizi = np.array([1,3,5,7,9])
+
+# dizi = np.arange(1,10)      # 1-10 arası eleman oluşturur
+# dizi = np.arange(10,100,3)  # 10-100 arası , 3er artar
+
+# dizi = np.zeros(10) # 10 tane 0 dizisi oluştutur
+# dizi = np.ones(10)  # 10 tane 1 dizisi oluşturur
+
+# dizi = np.linspace(0,100,5)  # 0-100 arası 5 parçalık dizi
+
+# dizi = np.random.randint(0,10)   # 0 - 10 arası rastgele bir sayı
+# dizi = np.random.randint(0,20,3) # 0 - 10 arası 3 tane sayı
+# dizi = np.random.randn(20)       # pozitif negatif rastgele float 20 sayı
+# dizi = np.random.rand(20)
+
+""" satır-sütün toplamı
+np_array = np.arange(50)
+dizi = np_array.reshape(5,10)
+print(dizi.sum(axis=1))   # satırların toplamı
+print(dizi.sum(axis=0))   # sütünların toplamı
+"""
+
+#print(dizi)
+
+numbers = np.array([0,5,10,15,20,25,50,75])
+
+print(numbers[3])
+
