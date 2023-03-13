@@ -48,5 +48,43 @@ print(dizi.sum(axis=0))   # sütünların toplamı
 
 numbers = np.array([0,5,10,15,20,25,50,75])
 
-print(numbers[3])
+# numpy operations
+
+numbers1 = np.random.randint(10,100,6)
+numbers2 = np.random.randint(10,100,6)
+
+#print(numbers1)
+#print(numbers2)
+
+toplam = numbers1 + numbers2
+fark = numbers1 - numbers2
+carpim = numbers1 * numbers2
+carpim2 = numbers1 * 10
+
+sinus = np.sin(numbers1)
+log = np.log(numbers1)
+
+# matrise dönüştürme
+numbers1 = numbers1.reshape(2,3)
+numbers2 = numbers2.reshape(2,3)
+
+print(numbers1)
+print(numbers2)
+
+# matris birleştirme
+"""
+birlesik = np.vstack((numbers1,numbers2))
+birlesiky= np.hstack((numbers1,numbers2))
+print(birlesik)
+print(birlesiky)
+"""
+
+# buyuk küçük kontrolu  tek tek kontrol eder
+buyukmu = numbers1 >= 50
+kucukmu = numbers2 <= 10 
+
+kalan = numbers1 %2 == 0
+tek = numbers1 %2 == 1
+print(tek)
+print(numbers1[tek])
 
